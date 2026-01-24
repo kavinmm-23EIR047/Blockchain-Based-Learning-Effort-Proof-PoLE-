@@ -1,0 +1,705 @@
+[
+    {
+  "title": "Introduction to Generative AI",
+  "concepts": [
+    {
+      "concept": "Generative Artificial Intelligence",
+      "description": "A subfield of artificial intelligence that generates text, images, audio, video, and code using learned patterns from data."
+    },
+    {
+      "concept": "Generative Adversarial Network (GAN)",
+      "description": "A generative model consisting of a generator and a discriminator trained in a competitive process to create realistic data."
+    },
+    {
+      "concept": "Variational Autoencoder (VAE)",
+      "description": "A probabilistic generative model that encodes data into a latent distribution and reconstructs it for smooth sampling."
+    },
+    {
+      "concept": "Transformer",
+      "description": "A neural network architecture based on self-attention that processes tokens in parallel and captures long-range dependencies."
+    },
+    {
+      "concept": "Large Language Model (LLM)",
+      "description": "A model trained on massive text corpora to perform language understanding and generation tasks."
+    },
+    {
+      "concept": "Text-to-Image Model",
+      "description": "A generative AI system that creates images from natural language descriptions."
+    },
+    {
+      "concept": "Deepfake",
+      "description": "AI-generated media that replaces a person’s likeness in images, audio, or video using deep neural networks."
+    },
+    {
+      "concept": "Multimodal AI",
+      "description": "An AI system capable of processing and generating multiple data types such as text, image, audio, and video."
+    },
+    {
+      "concept": "Reinforcement Learning (RL)",
+      "description": "A type of machine learning where agents learn to make decisions by receiving rewards or penalties from interactions with the environment."
+    },
+    {
+      "concept": "Self-Supervised Learning",
+      "description": "A training method where the model generates its own labels from unlabeled data to learn representations."
+    },
+    {
+      "concept": "Attention Mechanism",
+      "description": "A neural network component that allows models to focus on the most relevant parts of input data."
+    },
+    {
+      "concept": "Fine-Tuning",
+      "description": "The process of taking a pre-trained model and adapting it to a specific task using additional training data."
+    },
+    {
+      "concept": "Prompt Engineering",
+      "description": "Designing input prompts for AI models to generate the desired output effectively."
+    },
+    {
+      "concept": "Chain-of-Thought Reasoning",
+      "description": "A technique for prompting LLMs to reason step-by-step before producing an answer."
+    },
+    {
+      "concept": "Zero-Shot Learning",
+      "description": "The ability of a model to perform tasks it was not explicitly trained on using generalization."
+    },
+    {
+      "concept": "Few-Shot Learning",
+      "description": "A learning method where a model is trained with only a few examples of a new task."
+    },
+    {
+      "concept": "Recurrent Neural Network (RNN)",
+      "description": "A type of neural network designed to handle sequential data by maintaining hidden states across time steps."
+    },
+    {
+      "concept": "Long Short-Term Memory (LSTM)",
+      "description": "A specialized RNN that solves the vanishing gradient problem to capture long-term dependencies."
+    },
+    {
+      "concept": "Attention is All You Need",
+      "description": "A paper introducing the transformer architecture, revolutionizing NLP and generative AI."
+    },
+    {
+      "concept": "Tokenization",
+      "description": "The process of splitting text into smaller units called tokens for language model processing."
+    },
+    {
+      "concept": "Embedding",
+      "description": "A numeric vector representation of text or other data types that captures semantic meaning."
+    },
+    {
+      "concept": "Diffusion Model",
+      "description": "A generative model that iteratively denoises random noise to create realistic images or data."
+    },
+    {
+      "concept": "Reinforcement Learning with Human Feedback (RLHF)",
+      "description": "A technique where human feedback guides model training for safer and more aligned outputs."
+    },
+    {
+      "concept": "Knowledge Distillation",
+      "description": "A method to compress a large model into a smaller one by transferring knowledge from teacher to student."
+    },
+    {
+      "concept": "Neural Architecture Search (NAS)",
+      "description": "An automated method to design optimal neural network architectures for specific tasks."
+    },
+    {
+      "concept": "Contrastive Learning",
+      "description": "A training method that pulls similar data points together and pushes dissimilar points apart in representation space."
+    },
+    {
+      "concept": "Semantic Segmentation",
+      "description": "The task of classifying each pixel in an image into predefined classes."
+    },
+    {
+      "concept": "Generative Pre-trained Transformer (GPT)",
+      "description": "A series of large language models trained to generate coherent text given input prompts."
+    },
+    {
+      "concept": "BERT",
+      "description": "A transformer-based model designed for bidirectional language understanding."
+    },
+    {
+      "concept": "RoBERTa",
+      "description": "A robustly optimized BERT approach that improves pre-training and downstream performance."
+    },
+    {
+      "concept": "Image-to-Image Translation",
+      "description": "Generative AI task that transforms images from one domain to another using learned mappings."
+    },
+    {
+      "concept": "Neural Style Transfer",
+      "description": "A technique to apply the style of one image to the content of another using neural networks."
+    },
+    {
+      "concept": "Text-to-Speech (TTS)",
+      "description": "Converting written text into spoken audio using generative models."
+    },
+    {
+      "concept": "Speech-to-Text (STT)",
+      "description": "Converting spoken audio into written text using AI models."
+    },
+    {
+      "concept": "Diffusion-Based Audio Generation",
+      "description": "A generative method that synthesizes audio by progressively refining noise signals."
+    },
+    {
+      "concept": "Few-Shot Prompting",
+      "description": "Providing a model with a few example inputs and outputs to guide its behavior on new tasks."
+    },
+    {
+      "concept": "Token Limitation",
+      "description": "The maximum number of tokens a language model can process in a single input."
+    },
+    {
+      "concept": "Overfitting",
+      "description": "When a model learns training data too well, including noise, and performs poorly on new data."
+    },
+    {
+      "concept": "Underfitting",
+      "description": "When a model is too simple to capture patterns in training data, resulting in poor performance."
+    },
+    {
+      "concept": "Data Augmentation",
+      "description": "Techniques to artificially increase dataset size by modifying existing samples."
+    },
+    {
+      "concept": "Prompt Injection",
+      "description": "A security risk where malicious inputs manipulate the output of an AI system."
+    },
+    {
+      "concept": "Bias in AI",
+      "description": "Systematic errors in AI models caused by biased training data or algorithms."
+    },
+    {
+      "concept": "Ethical AI",
+      "description": "The practice of developing AI systems that are fair, transparent, and aligned with human values."
+    },
+    {
+      "concept": "Explainable AI (XAI)",
+      "description": "Techniques to make AI model decisions understandable to humans."
+    },
+    {
+      "concept": "Synthetic Data",
+      "description": "Artificially generated data used for training AI models when real data is scarce or sensitive."
+    },
+    {
+      "concept": "Knowledge Graph",
+      "description": "A structured representation of entities and relationships to store and reason about information."
+    },
+    {
+      "concept": "Reinforcement Learning Environment",
+      "description": "The setting in which an RL agent interacts and learns through rewards and penalties."
+    },
+    {
+      "concept": "AI Alignment",
+      "description": "Ensuring AI systems' goals and behaviors match human intentions."
+    },
+    {
+      "concept": "Generative Code AI",
+      "description": "AI systems capable of generating software code from natural language or specifications."
+    },
+    {
+      "concept": "Neural Rendering",
+      "description": "AI technique that generates photorealistic 2D or 3D visuals from neural models."
+    },
+    {
+      "concept": "Zero-Shot Image Classification",
+      "description": "Classifying images into categories without seeing labeled examples, using model generalization."
+    },
+    {
+      "concept": "Self-Attention",
+      "description": "Mechanism in transformers that relates different positions of a sequence to compute representation."
+    },
+    {
+      "concept": "Reinforcement Learning Agent",
+      "description": "An entity in RL that learns to make decisions by interacting with the environment."
+    },
+    {
+      "concept": "Generative Data Compression",
+      "description": "Using AI models to compress data by generating a compact representation that can reconstruct the original."
+    }
+  ]
+},
+{
+  "title": "Introduction to Google Cloud Platform",
+  "concepts": [
+    {
+      "concept": "Google Cloud Platform (GCP)",
+      "description": "A suite of cloud computing services offered by Google running on the same infrastructure used internally by Google."
+    },
+    {
+      "concept": "Compute Engine",
+      "description": "Provides scalable virtual machines on Google’s infrastructure for compute workloads."
+    },
+    {
+      "concept": "App Engine",
+      "description": "A fully managed platform for building and deploying web applications without managing infrastructure."
+    },
+    {
+      "concept": "Cloud Storage",
+      "description": "Object storage service for storing and retrieving any amount of data with high availability."
+    },
+    {
+      "concept": "BigQuery",
+      "description": "Fully managed data warehouse allowing fast SQL queries using Google’s processing power."
+    },
+    {
+      "concept": "Cloud Functions",
+      "description": "Serverless execution environment for building and connecting cloud services without managing servers."
+    },
+    {
+      "concept": "Cloud Run",
+      "description": "Managed compute platform that automatically scales containerized applications."
+    },
+    {
+      "concept": "Pub/Sub",
+      "description": "Messaging service for sending and receiving messages between independent applications."
+    },
+    {
+      "concept": "Cloud SQL",
+      "description": "Fully managed relational database service supporting MySQL, PostgreSQL, and SQL Server."
+    },
+    {
+      "concept": "Cloud Spanner",
+      "description": "Fully managed, scalable, globally distributed relational database service."
+    },
+    {
+      "concept": "Cloud Datastore / Firestore",
+      "description": "NoSQL document database built for automatic scaling and high performance."
+    },
+    {
+      "concept": "Kubernetes Engine (GKE)",
+      "description": "Managed Kubernetes service to deploy, manage, and scale containerized applications."
+    },
+    {
+      "concept": "Dataflow",
+      "description": "Fully managed service for stream and batch data processing using Apache Beam."
+    },
+    {
+      "concept": "Dataproc",
+      "description": "Managed Spark and Hadoop service for big data processing."
+    },
+    {
+      "concept": "Vertex AI",
+      "description": "End-to-end managed machine learning platform for building, training, and deploying ML models."
+    },
+    {
+      "concept": "Cloud AI Platform",
+      "description": "Suite of AI products to develop and deploy machine learning models."
+    },
+    {
+      "concept": "Cloud Pub/Sub vs EventArc",
+      "description": "Pub/Sub is messaging; EventArc allows event-driven architecture across GCP services."
+    },
+    {
+      "concept": "Cloud Networking",
+      "description": "Services for connecting applications and users securely and reliably on Google’s global network."
+    },
+    {
+      "concept": "Cloud Load Balancing",
+      "description": "Distributes incoming traffic across multiple instances for scalability and availability."
+    },
+    {
+      "concept": "Cloud CDN",
+      "description": "Content delivery network to accelerate web and media content for global users."
+    },
+    {
+      "concept": "Cloud VPN",
+      "description": "Securely connects on-premises networks to GCP using IPSec VPN tunnels."
+    },
+    {
+      "concept": "Cloud Interconnect",
+      "description": "Dedicated physical connection for high-speed private connectivity to GCP."
+    },
+    {
+      "concept": "Cloud IAM",
+      "description": "Identity and Access Management to control who can access which resources on GCP."
+    },
+    {
+      "concept": "Cloud Identity",
+      "description": "Manages users, devices, and apps to secure access to GCP and cloud resources."
+    },
+    {
+      "concept": "Cloud Security Command Center",
+      "description": "Central security and risk management platform for visibility and threat detection."
+    },
+    {
+      "concept": "Cloud Key Management Service (KMS)",
+      "description": "Manages encryption keys for securing data in Google Cloud services."
+    },
+    {
+      "concept": "Cloud Monitoring",
+      "description": "Provides visibility into performance, uptime, and health of applications and resources."
+    },
+    {
+      "concept": "Cloud Logging",
+      "description": "Collects and analyzes log data from GCP and applications for monitoring and troubleshooting."
+    },
+    {
+      "concept": "Cloud Trace",
+      "description": "Distributed tracing system to monitor latency and performance of cloud applications."
+    },
+    {
+      "concept": "Cloud Debugger",
+      "description": "Debug applications in real-time without stopping or slowing down production workloads."
+    },
+    {
+      "concept": "Cloud Deployment Manager",
+      "description": "Infrastructure-as-code tool to automate creation and management of GCP resources."
+    },
+    {
+      "concept": "Cloud Billing",
+      "description": "Tools and reports to manage costs, budgets, and optimize spending on Google Cloud resources."
+    },
+    {
+      "concept": "SLA (Service Level Agreement)",
+      "description": "Agreements defining uptime and reliability commitments from Google Cloud services."
+    },
+    {
+      "concept": "Serverless vs Managed Services",
+      "description": "Serverless automatically scales with events; managed services handle infrastructure management."
+    },
+    {
+      "concept": "Cloud APIs",
+      "description": "APIs provided by GCP to access services programmatically."
+    },
+    {
+      "concept": "Cloud Endpoints",
+      "description": "API management system to create, deploy, and manage APIs on GCP."
+    },
+    {
+      "concept": "Cloud Armor",
+      "description": "Protects applications against DDoS attacks and web attacks."
+    },
+    {
+      "concept": "Cloud DLP",
+      "description": "Data Loss Prevention service to detect and protect sensitive information."
+    },
+    {
+      "concept": "Cloud Resource Manager",
+      "description": "Organizes resources and manages permissions in projects and folders."
+    },
+    {
+      "concept": "Cloud Projects",
+      "description": "Logical containers for organizing GCP resources and access permissions."
+    },
+    {
+      "concept": "Labels and Tags",
+      "description": "Used to organize, filter, and track GCP resources for management and billing."
+    },
+    {
+      "concept": "Cloud Deployment Pipelines",
+      "description": "Automates software deployment using CI/CD best practices on GCP."
+    },
+    {
+      "concept": "Cloud Build",
+      "description": "CI/CD service to build, test, and deploy applications in GCP."
+    },
+    {
+      "concept": "Artifact Registry",
+      "description": "Securely stores and manages container images and language packages for deployment."
+    },
+    {
+      "concept": "Cloud Scheduler",
+      "description": "Managed cron service to automate recurring tasks in GCP."
+    },
+    {
+      "concept": "Cloud Tasks",
+      "description": "Manages execution, delivery, and scheduling of distributed tasks."
+    },
+    {
+      "concept": "Cloud Workflows",
+      "description": "Orchestrates and automates Google Cloud and HTTP-based API services."
+    },
+    {
+      "concept": "Cloud Composer",
+      "description": "Managed workflow orchestration service built on Apache Airflow for scheduling pipelines."
+    },
+    {
+      "concept": "Cloud Marketplace",
+      "description": "Provides pre-built solutions, APIs, and services to deploy on Google Cloud."
+    },
+    {
+      "concept": "Hybrid and Multi-Cloud",
+      "description": "Solutions like Anthos to run and manage applications across multiple clouds and on-premises."
+    },
+    {
+      "concept": "Compliance and Governance",
+      "description": "GCP offers compliance certifications and governance tools to meet regulatory requirements."
+    },
+    {
+      "concept": "GCP Documentation & Learning",
+      "description": "Official guides, tutorials, and learning paths for using Google Cloud services effectively."
+    }
+  ]
+},
+{
+  "title": "PRINCIPLES WITH GOOGLE CLOUD",
+  "concepts": [
+    {
+      "concept": "Cloud Computing Basics",
+      "description": "Understanding the fundamentals of cloud computing and its benefits like scalability, cost efficiency, and flexibility."
+    },
+    {
+      "concept": "Google Cloud Platform Overview",
+      "description": "A comprehensive overview of GCP services and their use cases."
+    },
+    {
+      "concept": "Compute Engine",
+      "description": "A virtual machine service that provides scalable compute capacity in the cloud."
+    },
+    {
+      "concept": "App Engine",
+      "description": "A fully managed platform for building and deploying applications without managing servers."
+    },
+    {
+      "concept": "Kubernetes Engine (GKE)",
+      "description": "Managed Kubernetes service to deploy, manage, and scale containerized applications."
+    },
+    {
+      "concept": "Cloud Functions",
+      "description": "Serverless execution environment for building and connecting cloud services without managing servers."
+    },
+    {
+      "concept": "Cloud Run",
+      "description": "Fully managed compute platform to run containerized applications on a serverless environment."
+    },
+    {
+      "concept": "Cloud Storage",
+      "description": "Object storage service for storing and retrieving any amount of data with high availability."
+    },
+    {
+      "concept": "Persistent Disks",
+      "description": "High-performance block storage for GCP virtual machines."
+    },
+    {
+      "concept": "Cloud SQL",
+      "description": "Fully managed relational database service supporting MySQL, PostgreSQL, and SQL Server."
+    },
+    {
+      "concept": "BigQuery",
+      "description": "Serverless, highly scalable data warehouse for analytics and querying large datasets."
+    },
+    {
+      "concept": "Cloud Pub/Sub",
+      "description": "Messaging service for sending and receiving messages between independent applications."
+    },
+    {
+      "concept": "Cloud Composer",
+      "description": "Managed workflow orchestration service built on Apache Airflow for scheduling pipelines."
+    },
+    {
+      "concept": "Cloud Spanner",
+      "description": "Fully managed, scalable, and strongly consistent relational database service."
+    },
+    {
+      "concept": "Cloud Firestore",
+      "description": "Serverless, NoSQL database for building web, mobile, and server applications."
+    },
+    {
+      "concept": "Cloud Bigtable",
+      "description": "High-performance, scalable NoSQL database for analytical and operational workloads."
+    },
+    {
+      "concept": "Cloud Identity",
+      "description": "Manages users, devices, and apps to secure access to GCP and cloud resources."
+    },
+    {
+      "concept": "IAM",
+      "description": "Identity and Access Management system to control who has access to GCP resources."
+    },
+    {
+      "concept": "VPC Networks",
+      "description": "Virtual Private Cloud networks to isolate and connect GCP resources securely."
+    },
+    {
+      "concept": "Cloud Load Balancing",
+      "description": "Distributes incoming traffic across multiple resources to ensure high availability and reliability."
+    },
+    {
+      "concept": "Cloud CDN",
+      "description": "Content delivery network to accelerate web and media content for global users."
+    },
+    {
+      "concept": "Cloud Monitoring",
+      "description": "Provides visibility into performance, uptime, and health of applications and resources."
+    },
+    {
+      "concept": "Cloud Logging",
+      "description": "Centralized logging to collect, store, and analyze logs from GCP services."
+    },
+    {
+      "concept": "Cloud Trace",
+      "description": "Helps analyze latency and performance issues in distributed applications."
+    },
+    {
+      "concept": "Cloud Debugger",
+      "description": "Debug applications in real-time without stopping or slowing down production workloads."
+    },
+    {
+      "concept": "Cloud Security Scanner",
+      "description": "Detects vulnerabilities and security issues in applications hosted on GCP."
+    },
+    {
+      "concept": "Cloud Armor",
+      "description": "Protects applications from DDoS attacks and enforces security policies."
+    },
+    {
+      "concept": "Cloud Key Management",
+      "description": "Manages encryption keys to secure data across GCP services."
+    },
+    {
+      "concept": "Cloud AI Platform",
+      "description": "Provides tools and APIs to train, deploy, and manage machine learning models."
+    },
+    {
+      "concept": "Cloud AutoML",
+      "description": "Enables training of custom machine learning models with minimal coding."
+    },
+    {
+      "concept": "Cloud Vision API",
+      "description": "Provides pre-trained machine learning models to analyze images."
+    },
+    {
+      "concept": "Cloud Translation API",
+      "description": "Automatically translates text between languages using Google's AI models."
+    },
+    {
+      "concept": "Cloud Text-to-Speech",
+      "description": "Converts text into natural-sounding speech using deep learning models."
+    },
+    {
+      "concept": "Cloud Speech-to-Text",
+      "description": "Converts spoken language into written text using Google's speech recognition models."
+    },
+    {
+      "concept": "Cloud Natural Language",
+      "description": "Analyzes and understands text using pre-trained machine learning models."
+    },
+    {
+      "concept": "Cloud Recommendations AI",
+      "description": "Provides personalized product or content recommendations for applications."
+    },
+    {
+      "concept": "Cloud Dataproc",
+      "description": "Managed Spark and Hadoop service for processing large datasets."
+    },
+    {
+      "concept": "Cloud Dataflow",
+      "description": "Fully managed service for stream and batch data processing."
+    },
+    {
+      "concept": "Cloud Pub/Sub Lite",
+      "description": "Cost-optimized messaging service for lightweight and high-throughput workloads."
+    },
+    {
+      "concept": "Cloud Scheduler",
+      "description": "Fully managed cron job service for scheduling tasks on GCP."
+    },
+    {
+      "concept": "Cloud Deployment Manager",
+      "description": "Automates the creation and management of GCP resources using templates."
+    },
+    {
+      "concept": "Cloud Endpoints",
+      "description": "API management system to create, deploy, and manage APIs on GCP."
+    },
+    {
+      "concept": "Anthos",
+      "description": "Hybrid and multi-cloud platform to run applications across multiple environments."
+    },
+    {
+      "concept": "Apigee API Management",
+      "description": "Helps build, secure, and manage APIs with traffic control, analytics, and monitoring."
+    },
+    {
+      "concept": "Cloud Logging Insights",
+      "description": "Analyzes and visualizes logs to identify patterns and issues in GCP applications."
+    },
+    {
+      "concept": "Cloud Cost Management",
+      "description": "Provides tools and reports to manage costs, budgets, and optimize spending on Google Cloud resources."
+    },
+    {
+      "concept": "Cloud Resource Manager",
+      "description": "Organizes resources and manages permissions in projects and folders."
+    },
+    {
+      "concept": "Serverless vs Managed Services",
+      "description": "Serverless automatically scales with events; managed services handle infrastructure management."
+    },
+    {
+      "concept": "Networking Basics",
+      "description": "Overview of GCP networking concepts including subnets, routing, and firewall rules."
+    },
+    {
+      "concept": "Hybrid Cloud Strategies",
+      "description": "Techniques for integrating on-premises infrastructure with cloud resources."
+    },
+    {
+      "concept": "Cloud SLA and Compliance",
+      "description": "Understanding service level agreements and compliance standards for Google Cloud."
+    }
+  ]
+},
+{
+  "title": "TOOLS - GOOGLE ANALYTICS",
+  "concepts": [
+    { "concept": "Account Structure", "description": "The hierarchy of Google Analytics consisting of Account, Property, and View to organize data collection." },
+    { "concept": "Property", "description": "A website, app, or device whose data is collected and tracked in Google Analytics." },
+    { "concept": "View", "description": "A filtered perspective of data for a property, allowing you to focus on specific traffic or metrics." },
+    { "concept": "Tracking Code", "description": "JavaScript code snippet installed on a website to collect user interaction data." },
+    { "concept": "Session", "description": "A group of user interactions on a website within a given timeframe, typically 30 minutes by default." },
+    { "concept": "User", "description": "A unique visitor to the website, identified by cookies and tracked across sessions." },
+    { "concept": "Pageview", "description": "Recorded each time a user loads a page on a website being tracked by Google Analytics." },
+    { "concept": "Event Tracking", "description": "A way to measure user interactions like clicks, downloads, and video plays beyond pageviews." },
+    { "concept": "Goal Conversion", "description": "A completed action defined as important for business, such as a purchase, signup, or download." },
+    { "concept": "Conversion Rate", "description": "The percentage of users who complete a goal compared to total users or sessions." },
+    { "concept": "Bounce Rate", "description": "The percentage of single-page sessions where no further interaction occurs." },
+    { "concept": "Acquisition", "description": "Data showing how users arrive at a website, including channels like Organic, Paid, Referral, or Direct." },
+    { "concept": "Traffic Source", "description": "The origin from which a visitor reaches your website, such as search engines, social media, or campaigns." },
+    { "concept": "Medium", "description": "The type of traffic, such as organic, CPC, referral, email, or none (direct)." },
+    { "concept": "Campaign Tracking", "description": "Using UTM parameters to identify specific marketing campaigns and their effectiveness." },
+    { "concept": "Custom Dimension", "description": "A user-defined attribute to segment and analyze data beyond default metrics." },
+    { "concept": "Custom Metric", "description": "A user-defined numeric measurement to track specific interactions on a website." },
+    { "concept": "Segmentation", "description": "Splitting data into subsets to analyze specific groups of users or behavior patterns." },
+    { "concept": "Real-Time Reporting", "description": "Monitor active user activity on your website as it happens, including location and page views." },
+    { "concept": "Audience Reports", "description": "Data about your website visitors, including demographics, interests, devices, and behavior." },
+    { "concept": "Behavior Reports", "description": "Insights into user interactions on the website, including pages visited, content, and events." },
+    { "concept": "Acquisition Reports", "description": "Analysis of traffic sources to understand where users are coming from." },
+    { "concept": "Conversion Reports", "description": "Insights into goal completions, ecommerce tracking, and overall business objectives." },
+    { "concept": "Ecommerce Tracking", "description": "Tracking of product sales, revenue, and transaction data for online stores." },
+    { "concept": "Enhanced Ecommerce", "description": "Advanced tracking for product impressions, shopping behavior, and checkout steps." },
+    { "concept": "Site Speed", "description": "Metrics related to page load time and user experience on your website." },
+    { "concept": "Site Search", "description": "Data about how users use your website's internal search feature and what they look for." },
+    { "concept": "Multi-Channel Funnels", "description": "Shows how different channels contribute to conversions over multiple touchpoints." },
+    { "concept": "Attribution Models", "description": "Rules defining how credit for conversions is assigned to different channels." },
+    { "concept": "Landing Page", "description": "The first page a user visits in a session, often a key entry point for campaigns." },
+    { "concept": "Exit Page", "description": "The last page a user visits before leaving the website during a session." },
+    { "concept": "User Flow", "description": "Visual representation of the paths users take through your website." },
+    { "concept": "Cohort Analysis", "description": "Grouping users based on shared characteristics or acquisition date to track behavior over time." },
+    { "concept": "Annotations", "description": "Notes added to reports to mark specific events, changes, or campaigns." },
+    { "concept": "UTM Parameters", "description": "Tags added to URLs to track the performance of campaigns in Google Analytics." },
+    { "concept": "Referral Traffic", "description": "Visitors who arrive at your website from other domains or websites." },
+    { "concept": "Organic Search", "description": "Visitors coming from unpaid search results on search engines." },
+    { "concept": "Paid Search", "description": "Traffic generated from paid advertising campaigns on search engines." },
+    { "concept": "Direct Traffic", "description": "Visitors who enter your website URL directly or from bookmarks." },
+    { "concept": "Social Traffic", "description": "Visitors coming from social media platforms like Facebook, LinkedIn, or Twitter." },
+    { "concept": "Email Campaign Tracking", "description": "Measuring user interactions and traffic from email marketing campaigns." },
+    { "concept": "Device Category", "description": "Classifying visitors based on device type: desktop, tablet, or mobile." },
+    { "concept": "Browser & OS", "description": "Information about the browser and operating system used by visitors." },
+    { "concept": "Geo Location", "description": "Tracking user locations by country, region, or city." },
+    { "concept": "Demographics", "description": "Information about age, gender, and other user characteristics." },
+    { "concept": "Interests", "description": "User interests based on browsing and engagement data." },
+    { "concept": "Custom Reports", "description": "User-defined reports to focus on specific metrics and dimensions." },
+    { "concept": "Dashboards", "description": "Collection of widgets and reports for at-a-glance analysis." },
+    { "concept": "Intelligence Alerts", "description": "Automatic alerts about significant changes in your website data." },
+    { "concept": "Data Import", "description": "Ability to upload external data to combine with Google Analytics metrics." },
+    { "concept": "Sampling", "description": "Using a subset of data to estimate metrics when working with large datasets." },
+    { "concept": "Filters", "description": "Rules applied to views to include or exclude traffic data." },
+    { "concept": "Segments", "description": "Custom subsets of users or sessions to analyze behavior." },
+    { "concept": "Annotations", "description": "Notes you can add to reports to explain trends or events." }
+  ]
+}
+]
+
